@@ -1,0 +1,2 @@
+rtabmap_ros:test_pkg
+-DCATKIN_DEVEL_PREFIX=/home/ljs/myRosspace/devel -DCMAKE_INSTALL_PREFIX=/home/ljs/myRosspace/install -G Unix Makefiles

@@ -1,0 +1,6 @@
+Array
+(
+    [position_x] => 10.5
+    [position_y] => 11.1
+    [position_z] => 12.2
+)

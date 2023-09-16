@@ -1,0 +1,12 @@
+<launch>
+ 
+  <node pkg="tf" type="static_transform_publisher" name="base_to_link" args="0 0 0 0 0 0 base_footprint base_link 100" />
+ 	<node pkg="tf" type="static_transform_publisher" name="base_to_gyro" args="0 0 0 0 0 0 base_footprint gyro_link 100" />
+  <node pkg="tf" type="static_transform_publisher" name="base_to_camera" args="0.5 0 1.5 0 0 0 base_footprint camera_link 100" />
+  <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="1.5 0 0.5 31.415 0 0 base_footprint laser 100" />
+
+
+
+</launch>
+
+
