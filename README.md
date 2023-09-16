@@ -16,9 +16,43 @@
 
 ---
 
+## 文件夹
+
+cloud_code 是挂载在新浪云上的代码。
+
+myRosspace 是在轮式机器人上的ROS工作空间。
+
+---
+
+## 运动学模型
+
+<img title="" src="file:///F:/MiniDesktop/Myproject/iRobot/InspectionRobot/Kinematic_model.png" alt="" width="347">
+
 ## 软件系统框架
 
+- 手柄遥操作
+
+- 激光SLAM导航
+
+- 上位机界面监视
+
+- 虚拟场景操作
+
 ![](System.png)
+
+## ROS节点设计
+
+<img src="file:///F:/MiniDesktop/Myproject/iRobot/InspectionRobot/ROS.png" title="" alt="ROS.png" width="633">
+
+## 手柄操作
+
+![](C:\Users\86158\AppData\Roaming\marktext\images\2023-09-16-20-46-57-image.png)
+
+## 激光雷达Gmapping建图效果
+
+Gmapping它已经集成在ROS的功能包中，是移动机器人导航中使用最多的SLAM建图算法。
+
+![Gmapping.png](F:\MiniDesktop\Myproject\iRobot\InspectionRobot\Gmapping.png)
 
 ## RTAB-Map SLAM
 
@@ -26,12 +60,16 @@
 
 ## 手柄遥操作
 
+在ROS中，C++通过mysql_real_connect函数可以连接到新浪云数据库，通过向数据库发送SQL查询，直接读取所需的数据，然后再交给ROS节点进行数据的处理。
+
 ![System2.png](System2.png)
 
 ## 上位机操作
 
 ![System3.png](System3.png)
 
-## 场景建模
+## 虚拟场景建模与现实同步
+
+![unity.png](F:\MiniDesktop\Myproject\iRobot\InspectionRobot\unity.png)
 
 ![System4.png](System4.png)
