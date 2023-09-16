@@ -26,7 +26,7 @@ myRosspace 是在轮式机器人上的ROS工作空间。
 
 ## 运动学模型
 
-<img title="" src="file:///F:/MiniDesktop/Myproject/iRobot/InspectionRobot/Kinematic_model.png" alt="" width="347">
+<img title="" src="Kinematic_model.png" alt="" width="347">
 
 ## 软件系统框架
 
@@ -42,17 +42,17 @@ myRosspace 是在轮式机器人上的ROS工作空间。
 
 ## ROS节点设计
 
-<img src="file:///F:/MiniDesktop/Myproject/iRobot/InspectionRobot/ROS.png" title="" alt="ROS.png" width="633">
+<img src="ROS.png" title="" alt="ROS.png" width="633">
 
 ## 手柄操作
 
-![](C:\Users\86158\AppData\Roaming\marktext\images\2023-09-16-20-46-57-image.png)
+![flow.png](flow.png)
 
 ## 激光雷达Gmapping建图效果
 
 Gmapping它已经集成在ROS的功能包中，是移动机器人导航中使用最多的SLAM建图算法。
 
-![Gmapping.png](F:\MiniDesktop\Myproject\iRobot\InspectionRobot\Gmapping.png)
+![Gmapping.png](Gmapping.png)
 
 ## RTAB-Map SLAM
 
@@ -70,6 +70,6 @@ Gmapping它已经集成在ROS的功能包中，是移动机器人导航中使用
 
 ## 虚拟场景建模与现实同步
 
-![unity.png](F:\MiniDesktop\Myproject\iRobot\InspectionRobot\unity.png)
+    Unity每帧更新程序，已知帧率为50帧/秒，以每帧间隔0.02秒后向新浪云MySQL数据库更新一次数据，现实小车则同样以同样频率甚至更高频率采集数据库数据，并执行相应的指令。假设小车控制速度为0.5m/s，运行时间等于帧数除以帧率，位移等于速度与时间相乘，在相同的运行时间内，只要速度一样就可以确定一致的位移。ROS小车保持上一时刻发布的瞬时速度控制，因此，小车采取合适的数据采样和指令发布频率，将尽可能的减少时延。![unity.png](unity.png)
 
 ![System4.png](System4.png)
