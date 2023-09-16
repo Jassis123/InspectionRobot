@@ -18,22 +18,20 @@
 
 ## 软件系统框架
 
-![](F:\MiniDesktop\Myproject\MobileRobot\System.png)
+![](System.png)
 
 ## RTAB-Map SLAM
 
-![System1.png](F:\MiniDesktop\Myproject\MobileRobot\System1.png)
+![System1.png](System1.png)
 
 ## 手柄遥操作
 
-![System2.png](F:\MiniDesktop\Myproject\MobileRobot\System2.png)
+![System2.png](System2.png)
 
 ## 上位机操作
 
-![System3.png](F:\MiniDesktop\Myproject\MobileRobot\System3.png)
+![System3.png](System3.png)
 
 ## 场景建模
 
-![System4.png](F:\MiniDesktop\Myproject\MobileRobot\System4.png)
-
-
+![System4.png](System4.png)
